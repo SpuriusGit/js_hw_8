@@ -35,5 +35,6 @@ refs.ul.addEventListener('click',(e)=>{
 // close image
 refs.lightboxCloseButton.addEventListener('click', ()=>{
     refs.lightbox.classList.remove('is-open');
+    refs.lightboxImage.setAttribute('src',` `);
 });
 
